@@ -1,35 +1,53 @@
 body{
     background-color: #FFFBEB;
-    color: #FFFBEB;
+    color: #263159;
     margin: 0px 0px;
     text-align: center;
     font-family: 'Merriweather', serif;
+    font-size: 125%;
 }
 .head{
     position: relative;
     padding-top: 100px;
+    background-color: #263159;
+    color: #FFFBEB;
 }
 div{
-    background-color: #263159;
+    
     
     display: block;
     
 }
 h1{
-    margin-top: 0px;
+    margin: 50px auto 0 auto;
     padding-top: 50px;
     font-family: 'Sacramento', cursive;
+    font-size: 5.25rem;
+    line-height: 200%
 }
 
 h2{
     font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bolder;
 }
 
 h3{
     font-family: 'Montserrat', sans-serif;
+    color: #251749;
 }
 p{
-    margin-bottom: 0px;
+ line-height: 2;
+}
+hr{
+    width: 15%;
+   border: dotted #251749 6px;
+   border-bottom: none;
+    
+}
+.intro{
+    width: 30%;
+    margin: auto;
 }
 
 .full{
@@ -48,7 +66,8 @@ p{
     position: relative;
     display: inline-block;
     left: 400px;
- 
+    visibility: hidden;
+    display: none;
 }
 
 .middle-continer{
@@ -56,12 +75,16 @@ p{
     position: relative;
     display: inline-block;
     right: 200px;
+    visibility: hidden;
+    display: none;
 }
 .bottom-continer{
     background-color: green;
     position: relative;
     display: inline-block;
     right: 200px;
+    visibility: hidden;
+    display: none;
 }
 
 .top-container2{
@@ -70,7 +93,7 @@ p{
     display: inline-block;
     left: 0px;
     top: 700px;
- 
+    visibility: hidden;
 }
 
 .middle-continer2{
@@ -79,6 +102,7 @@ p{
     display: inline-block;
     left: 200px;
     top: 900px;
+    visibility: hidden;
 }
 .bottom-continer2{
     background-color: purple;
@@ -86,6 +110,7 @@ p{
     display: inline-block;
     left: 400px;
     top: 1100px;
+    visibility: hidden;
 }
 
 h1:hover{
@@ -95,9 +120,67 @@ h1:hover{
 
 .top_cloud{
     position: absolute;
-    right: 30%;
+    right: 15%;
+}
+.mountain{
+    padding-bottom: 20px;
 }
 .bottom_cloud{
     position: absolute;
-    left: 30%;
+    left: 15%;
+}
+
+.pixel100x100{
+    padding-top: 60px;
+   height: 15%;
+   width: 15%;
+}
+.floating-1{
+    float: left;
+    padding-right: 30px;
+    height: 25%;
+    width: 25%;
+}
+.floating-2{
+    float: right;
+    padding-left: 30px;
+    height: 25%;
+    width: 25%;
+}
+
+.footer-link{
+    color: #525b79;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+.footer-link:hover{
+    color: antiquewhite;
+}
+.copy-right{
+    font-size: .75rem;
+}
+.btn{
+    color: antiquewhite;
+    background-color: #263159;
+    border-radius: 10%;
+    border-color: aliceblue;
+    margin: 2rem auto;
+}
+.btn:hover{
+    color: #263159;
+    background-color: antiquewhite;
+}
+.skill-row{
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+}
+.profile{
+    padding-bottom: 10px;
+}
+.bottom-container-actual{
+    background-color: #263159;
+    color: #FFFBEB;
+    padding-top: 50px;
+    padding-bottom: 20px;
 }
